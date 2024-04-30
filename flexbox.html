@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flexbox Practice</title>
+    <style>
+        .header{
+            display: flex;
+            margin-top: 40px;
+            height: 60px;
+            border: 1px solid black;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items:center;
+            text-align:center;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: row;">
+        <div style="background-color: lightblue;">div1</div>
+        <div style="background-color: lightcoral;">div2</div>
+
+    </div>
+    <div style="display: flex; flex-direction: row; margin-top: 30px; text-align: center;">
+        <div style="background-color: lightblue; width: 100px;">div1</div>
+        <div style="background-color: lightcoral;flex: 1; ">div2</div>
+        <div style="background-color: lightcoral;flex: 2; ">div2</div>
+
+    </div>
+
+    <div class="header">
+        <div style="background-color: lightblue; width: 100px;">div1</div>
+        <div style="background-color: lightcoral;width: 100px; ">div2</div>
+        <div style="background-color:lightgoldenrodyellow;width: 100px; ">div2</div>
+
+    </div>
+</body>
+
+</html>

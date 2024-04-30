@@ -1,0 +1,110 @@
+.header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top:0;
+    left:0;
+    right:0;
+    height: 60px;
+    border-bottom: 1px solid rgb(224, 212, 212);
+    z-index:100;
+
+}
+.left-section{
+    display: flex;
+    
+    align-items: center;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    flex:1;
+    margin-left: 70px;
+    margin-right:35px;
+    max-width: 500px;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width:200px;
+    justify-content: space-between;
+}
+.Search-bar{
+    display: flex;
+    flex:1;
+    height:36px;
+    font-size: 16px;
+    border-width: 1px;
+    border:1px solid rgb(206, 191, 191);
+    border-radius: 1px;
+    box-shadow: inset 1px 2px 3px rgb(0,0,0,0.05);
+    width: 0;
+
+}
+.Search-bar::placeholder{
+    font-family: "Roboto", Arial;
+    font-size: 16px;
+}
+
+.hamburger-menu,.youtube-logo{
+    height: 20px;
+    margin-left: 24px;
+    /* margin-right: 20px; */
+}
+
+
+.search{
+    display: flex;
+    height: 40px;
+    width: 66px;
+    border:1px solid rgb(206, 191, 191);
+    margin-right: 20px;
+    border-radius: 1px;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.126);
+    margin-left: -1px;
+    
+}
+.search-icon{
+    height: 25px;
+    /* width:24px; */
+    /* align-content: center; */
+    margin-top: 6px;
+}
+.voice-search-icon{
+    height: 24px;
+}
+.upload,.youtube-apps,.notifications-button{
+    
+    height: 24px;
+    
+}
+.notifications{
+    position: relative;
+}
+.notifications-count{
+    position: absolute;
+    background-color: red;
+    padding: 0 4px;
+    font-size: 12px;
+    border-radius: 22px;
+    font-family: "Roboto", "Arial", sans-serif;
+    text-align: center;
+    top:-2px;
+    right:-2px;
+    color: white;
+    font-weight: 400;
+    
+}
+.my-channel{
+    height: 32px;
+    margin-right: 26px ;
+    border-radius: 16px;
+}
